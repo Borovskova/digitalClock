@@ -1,0 +1,42 @@
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    border: gray;
+  }
+#clock{
+	width: 450px;
+	height: 450px;
+	color: gray;
+	background-color: #ceceebeb;
+	border-radius: 400px;
+	font-size: 75px;
+  font: italic small-caps bold 65px/2 cursive;
+  text-shadow: 0 0 20px #0c09f7, 0 0 20px rgba(10, 175, 230, 0); 
+  border: black;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+	}
+
+#start{
+background-color: blue;
+color: darkgrey;
+margin: 15px;
+margin-left: 160px;
+width: 65px;
+height: 35px;
+font: italic small-caps bold 15px/2 cursive;
+border: gray;
+}
+
+#stop{
+background-color: red;
+color: darkgrey;
+width: 65px;
+height: 35px;
+font: italic small-caps bold 15px/2 cursive;
+border: gray;
+}
